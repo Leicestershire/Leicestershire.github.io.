@@ -1,0 +1,56 @@
+<style>
+    body {
+    font-family: 仿宋, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(297, 25%, 45%); /* 浅蓝色背景 */
+}
+
+header {
+    background-color: #800080; /* 紫色背景 */
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+main {
+    padding: 20px;
+    background-color: #f1bbd2; /* 白色背景 */
+}
+
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+section p {
+    color: #666;
+}
+
+footer {
+    background-color: #800080; /* 紫色背景 */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+</style>

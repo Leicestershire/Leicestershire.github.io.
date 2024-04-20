@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摇滚莫扎特卡司简介</title>
+
+    <header>
+        <h1>摇滚莫扎特卡司介绍</h1>
+    </header>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="content">
+        <div class="actors">
+            <div class="actor">
+                <div class="original-name">Mikelangelo Loconte</div>
+                <div class="chinese-name">米开朗琪罗·勒孔特</div>
+                <div class="chinese-name">饰 莫扎特</div>
+            </div>
+            <div class="actor">
+                <div class="original-name">Laurent Ban</div>
+                <div class="chinese-name">洛朗·班</div>
+                <div class="chinese-name">饰 萨列里</div>
+            </div>
+            <!-- 其他演员信息 -->
+            <div class="actor">
+                <div class="original-name">Noemie Garcia</div>
+                <div class="chinese-name">诺埃米·加尔西亚</div>
+                <div class="chinese-name">饰 康斯坦斯·韦伯</div>
+            </div>
+            <div class="actor">
+                <div class="original-name">Corentine Collier</div>
+                <div class="chinese-name">克伦蒂娜·柯里耶</div>
+                <div class="chinese-name">饰 阿洛伊西娅·韦伯</div>
+            </div>
+            <!-- 其他演员信息 -->
+            <div class="actor">
+                <div class="original-name">Solal</div>
+                <div class="chinese-name">索拉尔</div>
+                <div class="chinese-name">饰 利奥波特·莫扎特</div>
+            </div>
+            <div class="actor">
+                <div class="original-name">Yamin Dib</div>
+                <div class="chinese-name">雅闵·迪布</div>
+                <div class="chinese-name">饰 罗森伯格伯爵</div>
+            </div>
+        
+        <!-- 插入长图 -->
+        <img src="images/卡司海报.png" alt="摇滚莫扎特卡司">
+    </div>
+</body>
+</html>
+
+
+<style>
+/* 全局样式 */
+header {
+            font-size: xx-large;
+            font-family:'华文行楷', cursive;
+            background-size: cover;
+            background-position: center;
+            height: 200px; /* 设置 header 高度 */
+            text-align: center;
+            color: #fff; /* 设置文字颜色为白色 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 仿宋, sans-serif;
+    font-weight:600;
+}
+
+/* 背景图片样式 */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/lofter\ 人像.jpg"); /* 使用占位图作为背景图片 */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* 将背景图层置于内容下方 */
+    filter: brightness(0.5); /* 降低背景图片亮度 */
+}
+
+/* 内容样式 */
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+/* 演员列表样式 */
+.actors {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.actor {
+    width: 45%; /* 两栏布局，每栏宽度为45% */
+    padding: 20px;
+    background-image: url("images/第三个icon.jpg"); /* 使用占位图作为背景图片 */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* 将背景图层置于内容下方 */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    filter:blur(Spx)
+}
+
+.actor .original-name {
+    font-weight: bold;
+    color: #fff; /* 白色文本 */
+}
+
+.actor .chinese-name {
+    color: #fff; /* 白色文本 */
+}
+</style>
